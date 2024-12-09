@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortadaRevista</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+
+</head>
+<body background="imagenes/green-grass.jpg">
+    <header>
+        <img src="/imagenes/soccer-player_861532.png" alt="Logo Solo Delantero">
+        <h1 style="color:aliceblue">SOLO DELANTERO</h1>
+     </header>
+
+     <main class="content">
+        <!-- Artículo con video de YouTube -->
+        <article class="card" id="video">
+            <h4>Malaguista ?? REVIVE AQUELLA NOCHE!!!</h4>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/ZLxknLCaMTY" frameborder="0" allowfullscreen></iframe>
+            </div>
+            
+        </article>
+    
+        <!-- Artículo con video y subtítulos -->
+        <article class="card" id="subtitulos">
+            <h4>llega Mundo Maldini</h4>
+            <video controls>
+                <source src="/imagenes/video1.mp4" type="video/mp4">
+                
+            </video>
+            <track src="/imagenes/subtitulos.vtt.txt" kind="subtitles" srclang="es" label="Español">
+            
+        </article>
+    
+        <!-- Artículo con imagen y enlace -->
+        <article class="card" id="imagen">
+            <h4>COMPRA TU ABONO</h4>
+            <a href="https://www.malagacf.com/campana-abonos-2024-25" target="_blank">
+                <img src="/imagenes/malaga.jpg" alt="Descripción de la imagen">
+            </a>
+            <p>Descripción de la imagen y enlace.</p>
+        </article>
+    
+        <!-- Artículo con audio -->
+        <article class="card" id="audio">
+            <h4>Carvajal, habla en el carrousel Deportivo</h4>
+            <audio controls>
+                <source src="/imagenes/Audio1.mp3" type="audio/mpeg">
+                
+            </audio>
+            
+        </article>
+    </main>
+
+
+
+   
+
+  
+
+
+<!-- Aside (barra lateral a la derecha) -->
+<aside class="sidebar">
+   
+        <h2>Más sobre las páginas</h2>
+        <ul>
+            <li><a class="active" href="videos.html">Multimedia</a></li>
+            <li><a class="active" href="portadaRevista.html">Inicio</a></li>
+            <li><a class="active" href="form.html">form</a></li>
+       
+        </ul>
+    <h2>CLASIFICACIONES</h2>
+    <ul>
+        <li><a target="_blank" href="https://www.marca.com/futbol/primera-division/clasificacion.html">Liga Primera División</a></li>
+        <li><a target="_blank" href="https://www.marca.com/futbol/segunda-division/clasificacion.html?intcmp=MENUMIGA&s_kw=clasificacion">Segunda División</a></li>
+        <li><a target="_blank" href="https://www.marca.com/futbol/champions-league/clasificacion.html?intcmp=MENUMIGA&s_kw=clasificacion">Fútbol Internacional</a></li>
+        <li><a target="_blank" href="https://www.marca.com/futbol/futbol-femenino/primera-division/clasificacion.html?intcmp=MENUPROD&s_kw=futbol-femenino-liga-f-clasificacion">Fútbol Femenino</a></li>
+    </ul>
+</aside>
+
+<footer >
+    <p style="color:aliceblue">Copyright Fran H 2024 &copy;</p>
+</footer>
+</body>
+</html>

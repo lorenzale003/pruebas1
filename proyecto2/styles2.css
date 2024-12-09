@@ -1,0 +1,108 @@
+.caja1{
+    width: 420px;
+    
+    height: 420px;
+    padding: 10px;
+    border: 5px solid rgb(7, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(128, 3, 3);
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 35%;
+    
+    justify-items: center;
+
+    .caja1, .caja2, .caja3, .caja4{
+        width: 80%;
+        height: 80%;
+    }
+}
+
+.caja2{
+    
+    padding: 10px;
+    border: 5px dashed rgb(255, 240, 240);
+    background-color: rgb(255, 70, 70);
+    box-shadow: 3px 3px orange;
+    margin-top: 25px;
+    margin-right: 9px;
+    margin-left: 9px;
+    margin-bottom: 20px;
+    
+}
+
+.caja3{
+    
+    padding: 10px;
+    border: 5px dotted rgb(7, 0, 0);
+    background-color: rgb(255, 140, 140);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right:10px ;
+
+    
+}
+.caja4{
+
+   
+    padding: 10px;
+    border: 20px hidden double dashed rgb(7, 0, 0);
+    background-color: rgb(255, 198, 190);
+    box-shadow: 3px 3px rgb(73, 63, 189)inset;
+    margin-top: 18px;
+    margin-left: 17px;
+    
+}
+
+
+
+.caja5{
+    width: 420px;
+    height: 420px;
+    padding: 10px;
+    border: 5px solid rgb(7, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(1, 3, 108);
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 35%;
+    
+    justify-items: center;
+}
+
+.caja6{
+    width: 320px;
+    height: 320px;
+    padding: 10px;
+    border: 5px dashed rgb(255, 240, 240);
+    background-color: rgb(50, 68, 228);
+    box-shadow: orange;
+    margin-top: 30px;
+    margin-right: 10px;
+    
+}
+
+.caja7{
+    width: 220px;
+    height: 220px;
+    padding: 10px;
+    border: 5px dotted rgb(7, 0, 0);
+    background-color: rgb(95, 130, 245);
+    margin-top: 30px;
+    margin-left: 60px;
+
+    
+}
+.caja8{
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    border: 20px hidden double dashed rgb(7, 0, 0);
+    background-color: rgb(170, 197, 234);
+    margin-top: 32px;
+    margin-left: 39px;
+    
+}

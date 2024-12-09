@@ -1,0 +1,149 @@
+.fondo{
+    background-color: rgb(144, 171, 172);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #008fba;
+  }
+  
+  .active {
+    background-color: #88fdceca;
+  }
+
+  footer{
+    background-color: #008fba;
+  }
+
+  
+
+  /* Establecer un fondo y una tipografía atractiva */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.fondo {
+    background-image: url('https://www.example.com/path/to/your/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #3a3a3a;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header a:hover {
+    color: #f0a500;
+}
+
+/* Estilo para las secciones de imágenes y audios */
+main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#Fotografías, #audios {
+    margin-bottom: 40px;
+}
+
+/* Estilo para las fotos como cromos */
+#Fotografías h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#Fotografías img {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    border: 5px solid #cab02d;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#Fotografías img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo para los audios */
+#audios h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+audio {
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(55, 45, 45, 0.1);
+}
+
+/* Estilo para centrar los audios en una fila */
+#audios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}

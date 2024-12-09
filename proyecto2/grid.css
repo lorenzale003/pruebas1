@@ -1,0 +1,41 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #a4c1d8;
+    padding: 10px;
+}
+
+.grid-item1, .grid-item2, .grid-item3, .grid-item4, .grid-item5, .grid-item6 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    height: 300px;
+    width: 650px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-size: cover;  /* Añadir esto para asegurar que las imágenes se ajusten bien */
+}
+
+.grid-item1 {
+    background-image: url("/proyecto2/img/istockphoto-585073092-612x612.jpg");
+}
+
+.grid-item2 {
+    background-image: url("/proyecto2/img/pueblos-de-malaga-con-encanto.jpg");
+}
+
+.grid-item3 {
+    background-image: url("/proyecto2/img/malaga-1-pixabay-tripdicas-dolce-morumbi_11zon.webp");
+}
+
+.grid-item4 {
+    background-image: url("/proyecto2/img/atardecer-en-Malaga-Muelle-Uno-scaled-1.jpeg");
+}
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+.grid-item5 {
+    background-image: url("/img/Antequera-que-ver-cerca-de-Malaga.jpg");  /* Verifica que esta ruta sea correcta */
+}
+
+.grid-item6 {
+    background-image: url("/proyecto2/img/calahonda-nerja-malaga-R92RJrkio6R7uO8FHRsLyLJ-1200x840@diario_abc.png");
+}

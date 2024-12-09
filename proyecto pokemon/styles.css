@@ -1,0 +1,27 @@
+/* Contenedor principal */
+#pokemon-container {
+    width: 700px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap; /* Para que las imágenes se ajusten en filas */
+    gap: 10px; /* Separación entre divs */
+  }
+  
+  /* Estilo de cada div que contiene un Pokémon */
+  .pokemon {
+    width: 120px; /* Ancho fijo */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+  }
+  
+  .pokemon img {
+    background-color: antiquewhite;
+    border: 2.5px solid olive;
+    border-radius: 10px;
+    width: 100%; /* Imagen ocupa todo el ancho del div */
+  }
+
+  .fondo{
+    background-image: url('758683gen-1jpg.jpg');
+    width:100%;
+  }
+  

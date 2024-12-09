@@ -1,0 +1,52 @@
+#principal{
+   
+        width: 700px;
+        height: 450px;
+        padding: 10px;
+        border: 2px solid rgb(7, 0, 0);
+        background-color: rgb(255, 170, 85);
+         justify-items: center;
+         position: absolute;
+    
+}
+
+#primer_piso{
+   
+    width: 100%;
+    height: 85%;
+    margin-top:-11px;
+    padding: 10px;
+    border: 1px solid rgb(7, 0, 0);
+    background-color: rgb(181, 121, 61);
+    
+
+}
+
+#segundo_piso{
+   
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+    border: 1px solid rgb(7, 0, 0);
+    background-color: rgb(110, 64, 18);
+
+   margin-left: 10%;
+    
+}
+
+#tercer_piso{
+   
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+    border: 1px solid rgb(7, 0, 0);
+    background-color: rgb(32, 18, 3);
+
+   margin-left: 5%;
+   margin-right: 8%;
+   
+    
+}
+#esca_izq{
+    
+}

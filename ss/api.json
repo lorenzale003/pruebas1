@@ -1,0 +1,54 @@
+{
+    "cofradias": [
+      {
+        "id": 1,
+        "nombre": "Cofradía de la Sentencia",
+        "año_fundacion":1890,
+        "dia_de_salida": "Domingo de Ramos",
+        "numero_de_hermanos": 350,
+        "numero_de_tronos": 2,
+        "nombre_de_titulares": ["Jesús de la Sentencia", "María Santísima de la Merced"],
+        "hermano_mayor": "Juan Pérez González",
+        "foto_escudo": "https://www.example.com/imagenes/escudo_sentencia.jpg",
+        "foto_tunicas":"https://www.example.com/imagenes/escudo_sentencia.jpg",
+        "foto_imagenes": [
+          "https://www.example.com/imagenes/imagen1_sentencia.jpg",
+          "https://www.example.com/imagenes/imagen2_sentencia.jpg"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Cofradía de la Sentencia",
+        "año_fundacion":1890,
+        "dia_de_salida": "Domingo de Ramos",
+        "numero_de_hermanos": 350,
+        "numero_de_tronos": 2,
+        "nombre_de_titulares": ["Jesús de la Sentencia", "María Santísima de la Merced"],
+        "hermano_mayor": "Juan Pérez González",
+        "foto_escudo": "https://www.example.com/imagenes/escudo_sentencia.jpg",
+        "foto_tunicas":"https://www.example.com/imagenes/escudo_sentencia.jpg",
+        "foto_imagenes": [
+          "https://www.example.com/imagenes/imagen1_sentencia.jpg",
+          "https://www.example.com/imagenes/imagen2_sentencia.jpg"
+        ]
+  
+      },
+      {
+        "id": 3,
+        "nombre": "Cofradía de la Sentencia",
+        "año_fundacion":1890,
+        "dia_de_salida": "Domingo de Ramos",
+        "numero_de_hermanos": 350,
+        "numero_de_tronos": 2,
+        "nombre_de_titulares": ["Jesús de la Sentencia", "María Santísima de la Merced"],
+        "hermano_mayor": "Juan Pérez González",
+        "foto_escudo": "https://www.example.com/imagenes/escudo_sentencia.jpg",
+        "foto_tunicas":"https://www.example.com/imagenes/escudo_sentencia.jpg",
+        "foto_imagenes": [
+          "https://www.example.com/imagenes/imagen1_sentencia.jpg",
+          "https://www.example.com/imagenes/imagen2_sentencia.jpg"
+        ]
+      }
+    ]
+  }
+  

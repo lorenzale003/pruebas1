@@ -1,0 +1,252 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.fondo {
+    background-color: #282626cb;
+}
+
+header {
+    background-color: #860000;
+    width: 100%;
+    margin:0 auto ;
+    color: aliceblue;
+    display: flex;
+    align-items: center; /* Alinea verticalmente el contenido */
+    justify-content: flex-start; /* Alinea el contenido a la izquierda */
+    padding: 10px;
+}
+
+header img {
+    max-width: 50px; /* Ajusta el tamaño de la imagen si es necesario */
+    margin-right: 15px; /* Espacio entre la imagen y el texto */
+}
+
+header h1 {
+    font-size: 2em;
+    color: #141010; /* Color del texto, puedes modificarlo si lo deseas */
+    margin: 0 !important;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #860000;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #080000;
+}
+
+footer {
+    margin: 0;
+    overflow: hidden;
+    background-color: #5e0505;
+    color: white;
+}
+
+.logo {
+    text-align: center;
+    color: rgb(125, 0, 0); /* Color del texto */
+    font-size: 70px;
+    font-style: initial;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo relleno blanco con transparencia */
+    padding: 20px; /* Espaciado interno para evitar que el texto toque el borde */
+    border: 5px solid white; /* Borde blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7); /* Sombra brillante */
+}
+
+
+
+
+
+
+/* Cambios para los artículos (cards) */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporción de 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background-color: #000;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 70%; /* Aumenta el ancho para ocupar más espacio */
+    margin: 20px auto; /* Reduce el margen vertical entre las tarjetas */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    padding: 20px;
+}
+
+
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Ajusta la tabla para que ocupe más espacio horizontal */
+
+
+table {
+    width: 100%; /* Asegura que la tabla ocupe todo el ancho disponible */
+    border-spacing: 20px; /* Reduce el espacio entre las celdas de la tabla */
+}
+
+th {
+    width: 50%; /* Asegura que cada columna de la tabla ocupe más espacio */
+    vertical-align: top; /* Alinea los artículos en la parte superior */
+}
+
+h4 {
+    color: #530000;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #220000;
+    line-height: 1.6;
+}
+
+span {
+    color: grey;
+}
+
+.content {
+    margin-right: 250px; /* Espacio para el aside */
+    padding: 20px;
+}
+
+/* Estilos del Aside */
+.sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #860000;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    color: #000000;
+    font-size: 1.5em;
+    text-shadow: #a0a0a0 2px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #a0a0a0;
+    font-size: 1.2em;
+}
+
+.sidebar ul li a:hover {
+    color: #be0d00;
+}
+
+
+
+
+
+/*formulario*/
+
+.card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 50%;
+    max-height: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    color: #000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #530000;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="tel"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #860000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5e0505;
+}
+
+/* Para dispositivos más pequeños */
+@media (max-width: 600px) {
+    .card {
+        max-width: 100%;
+        margin: 10px;
+    }
+}

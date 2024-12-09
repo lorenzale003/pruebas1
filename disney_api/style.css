@@ -1,0 +1,66 @@
+/* Estilo para el contenedor principal donde se colocan las tarjetas */
+#disney_container {
+    display: flex;
+    flex-wrap: wrap;         /* Hace que los elementos se ajusten a varias filas */
+    justify-content: space-around; /* Centra las tarjetas en el contenedor */
+    gap: 20px;               /* Espacio entre las tarjetas */
+    padding: 20px;           /* Espacio alrededor de las tarjetas */
+    background-color: #f4f4f4; /* Color de fondo claro */
+}
+
+/* Estilo para cada tarjeta de personaje */
+.character-card {
+    width: 150px;            /* Ancho de cada tarjeta */
+    padding: 10px;           /* Espaciado interno de la tarjeta */
+    border: 1px solid #00b8d8;  /* Borde suave */
+    border-radius: 8px;      /* Bordes redondeados */
+    background-color: #fff4cc;  /* Fondo blanco */
+    text-align: center;      /* Centrar el contenido */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transición suave para interacciones */
+}
+
+/* Efecto de hover para la tarjeta */
+.character-card:hover {
+    transform: scale(1.05);   /* Escala la tarjeta un poco al pasar el mouse */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+/* Estilo para las imágenes */
+.character-card img {
+    width: 100px;             /* Ancho de la imagen */
+    height: 100px;            /* Altura de la imagen */
+    object-fit: contain;      /* Asegura que la imagen se ajuste sin distorsión */
+    border-radius: 8px;       /* Bordes redondeados para la imagen */
+    margin-bottom: 10px;      /* Espacio debajo de la imagen */
+}
+
+/* Estilo para los nombres */
+.character-card p {
+    font-size: 14px;          /* Tamaño de fuente */
+    font-weight: bold;        /* Fuente en negrita */
+    color: #333;              /* Color del texto */
+    margin: 0;                /* Eliminar márgenes por defecto */
+}
+
+/* Estilo para los enlaces */
+.character-card a {
+    text-decoration: none;    /* Elimina el subrayado del enlace */
+    color: inherit;           /* Hace que el enlace tome el color del texto */
+}
+
+/* Estilo para que las tarjetas se adapten a pantallas pequeñas */
+@media (max-width: 768px) {
+    #disney_container {
+        justify-content: center; /* Centra las tarjetas en pantallas pequeñas */
+    }
+    .character-card {
+        width: 120px;            /* Reduce el tamaño de las tarjetas en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .character-card {
+        width: 100px;            /* Redimensiona aún más las tarjetas en pantallas muy pequeñas */
+    }
+}
